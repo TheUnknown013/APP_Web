@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box
+}
+.encabezado_sesion{
+    background-image: url("../imagenes/Patrones.jpg");
+    border: 1px solid black;
+    max-width: 100%;
+    overflow: hidden;
+}
+.encabezado_sesion h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 6vw;
+    -webkit-text-stroke: 3px #000000;
+    color: hsl(0, 0%, 100%);
+    padding: 4%;
+    align-items: center;
+}
+.encabezado_sesion img{
+    width: 13%;
+    margin: 12px 12px auto;
+    float: left;
+    display: block;
+}
+.form{
+    max-width: 25%;
+    height: auto;
+    margin: 0px auto;
+    margin-bottom: 60px;
+    background-color: hwb(133 27% 35% / 0.411);
+    padding: 30px;
+    border-radius: 8px;
+}
+.form input{
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.3vw;
+    text-align: left;
+    padding: 2%;
+    border: 1% solid;
+    border-style: outset;
+    border-radius: 2px;
+}
+.form input[type="submit"]{
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5vw;
+    padding: 2.5%;
+    background-color: #ffb109;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+.texto{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5vw;
+    padding: 4%;
+    text-align: center;
+}

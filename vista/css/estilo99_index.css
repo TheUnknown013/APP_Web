@@ -1,0 +1,87 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+}
+.boleta-container {
+    margin: 20px auto;
+    width: 80%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.boleta-container table {
+    width: 100%;
+    max-width: 900px;
+    margin-left: 6.5%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+.boleta-container th, .boleta-container td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: center;
+}
+.boleta-container th {
+    background-color: #f2f2f2;
+}
+.boleta-container th:first-child,
+.boleta-container td:first-child {
+    text-align: left;
+}
+.boleta-container table:nth-of-type(1) {
+    margin-bottom: 10px;
+}
+.boleta-container table:nth-of-type(1) p {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.boleta-container table:nth-of-type(2) th {
+    background-color: #ddd;
+}
+.boleta-container table:nth-of-type(3) {
+    margin-top: 20px;
+}
+.boleta-container table:nth-of-type(3) th {
+    background-color: #ddd;
+}
+.boleta-container table:nth-of-type(3) th, 
+.boleta-container table:nth-of-type(3) td {
+    text-align: center;
+}
+.boleta-container p{
+    font-size: 2vw;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-align: center;
+    color: #333;
+    text-transform: uppercase;
+}
+.cedula {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.Consultar {
+    margin-bottom: 10px;
+}
+.Consultar img {
+    width: 50px;
+}
+.cedula button {
+    background-color: hwb(133 27% 35%);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.cedula button:hover {
+    background-color:  #fbff09;
+}

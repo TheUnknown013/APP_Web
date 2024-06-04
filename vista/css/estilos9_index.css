@@ -1,0 +1,57 @@
+.Datos {
+    display: flex;
+    margin: 60px 5%;
+    position: relative;
+}
+.Datos:before {
+    content: "";
+    position: absolute;
+    top: -30px;
+    right: -30px;
+    bottom: -30px;
+    left: -30px;
+    background-color: hsl(189, 100%, 94%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: -1;
+    border-radius: 8px;
+}
+.Datos table{
+    width: 75%;
+    overflow: hidden;
+    margin-left: 50px;
+    border-collapse: collapse;
+}
+.Datos th{
+    font-size: 1.5vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Datos td{
+    font-size: 1.3vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cedula {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.Consultar {
+    margin-bottom: 10px;
+}
+.Consultar img {
+    width: 50px;
+}
+.cedula button {
+    background-color: hwb(133 27% 35%);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.cedula button:hover {
+    background-color:  #fbff09;
+}

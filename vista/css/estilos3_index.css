@@ -1,0 +1,40 @@
+.Principal p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #000000;
+    margin: 20px;
+    font-size: 4vw;
+    text-align: center;
+}
+.Principal img{
+    width: 40%;
+    padding: 0% -10%;
+    margin: 20px auto;
+    display: block;
+}
+.fila1{
+    max-width: 100%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.columna1{
+    margin: auto;
+    width: 33.3%;
+    padding: 1%;
+    float: left;
+}
+.galeria1{
+    max-width: 100%;
+    padding: 2%;
+    background-color: hwb(133 27% 35%);
+}
+.galeria1 img{
+    width: 100%;
+    height: auto;
+}
+.descripcion1 p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5vw;
+    color: #ffffff;
+    text-align: left;
+    margin: 3px;
+}
