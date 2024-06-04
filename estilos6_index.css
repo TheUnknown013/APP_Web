@@ -1,0 +1,51 @@
+/*Estilos Objetos*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box
+}
+.objetos{
+    max-width: 100%;
+    overflow: hidden;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.objetos table{
+    width: 80%;
+    overflow: hidden;
+    margin: auto;
+    border-collapse: collapse;
+}
+.objetos td, th{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1vw;
+    text-align: left;
+    color: black;
+    padding: 0.5%;
+    border: 1px solid;
+}
+.objetos tr:hover{
+    background-color: #6ea4c9af;
+}
+.boton a{
+    display: flex;
+    float: right;
+    margin-right: 10%;
+    margin-top: 3%;
+    text-decoration: none;
+    color: black;
+}
+.boton h3{
+    float: left;
+    margin: 20px;
+}
+img{
+    max-width: 25%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+label{
+    margin-top: 5%;
+}

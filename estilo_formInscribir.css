@@ -1,0 +1,128 @@
+form input, form select{
+  background: #FCFCFC;
+  color: #1C1C1C;
+  box-shadow: 0 1px 0 #CFCFCF inset;
+  box-sizing: border-box;
+  border-width: 1%;
+  border-style: solid;
+  font-size:1.3vw;
+}
+
+label{
+  font-weight: bold;
+}
+
+.Nombre_Alumno input{
+  margin-right:0.5%;
+}
+
+.Fechas input{
+  margin: 1%;
+  margin-left:0.5%;
+  max-width: 10%;
+}
+
+.Fechas{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.Edad, .Nacimiento{
+  width: 50%;
+  
+}
+
+#gender{
+  padding-left: 5%;
+}
+
+hr{
+  height: .3vw;
+  background-color: black;
+  border-color: black;
+}
+
+.Datos_Escuela{
+  text-align:center;
+}
+
+form table tr td,form table{
+  border-collapse: collapse;
+  	border:1px solid #000;
+}
+
+
+form table tr td{
+  padding: 0.8%;
+}
+form table{
+  width: 100%;
+}
+
+
+form #numeros{
+  max-width: 20%;
+}
+
+.Dirección input{
+  margin: 1%;
+  margin-left:0.5%;
+
+}
+
+.Bienes{
+  text-align: center;
+}
+
+
+
+#Num{
+  max-width: 5%;
+}
+
+#CP{
+  max-width: 10%;
+}
+
+.formulario {
+  width: 85%;
+  margin: 1% auto;
+  padding: 2% 2%;
+  background: #CAFDB2;
+  border-radius: 2%;
+  font-family:Arial, Helvetica, sans-serif;  
+
+}
+
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 4px 8px 0;
+}
+
+
+input[type="submit"] {
+  background: rgb(221, 34, 34);
+  border-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 48%;
+  height: 3vw;
+  width: 5vw;
+  margin-bottom: 2%;
+}
+
+ input[type="submit"]:hover {
+  background: rgb(96, 4, 4);
+}
+
+input[type="submit"]:focus {
+  border-color: rgb(223, 10, 10);
+}
+
+h2{
+  text-align: center;
+  font-size: 3vw;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 2%;
+}

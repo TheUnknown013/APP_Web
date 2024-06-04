@@ -1,0 +1,49 @@
+#contenedor {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.columna1 {
+    width: 25%;
+}
+.columna1 img{
+    width: 100%;
+    float: left;
+    margin: 20% 7%;
+    float: inline-start;
+}
+.columna1 .inscrip {
+    margin-top: 30vw;
+    margin-left: -18vw;
+    border: 0;
+    line-height: 3vw;
+    padding: 0vw 1.5vw;
+    font-size: 1.2vw;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0.1vw 0.1vw 0.1vw #000;
+    border-radius: 10px;
+    background-color: rgb(220 0 0 / 100%);
+    background-image: linear-gradient(
+    to top left,
+        rgb(0 0 0 / 20%),
+        rgb(0 0 0 / 20%) 30%,
+        rgb(0 0 0 / 0%));
+    box-shadow:
+    inset 2px 2px 3px rgb(255 255 255 / 60%),
+    inset -2px -2px 3px rgb(0 0 0 / 60%);
+}
+.columna1 .inscrip:hover {
+    background-color: rgb(255 0 0 / 100%);
+}
+.columna1 .inscrip:active {
+    box-shadow:
+    inset -2px -2px 3px rgb(255 255 255 / 60%),
+    inset 2px 2px 3px rgb(0 0 0 / 60%);
+}
+.columna2 {
+    width: 75%;
+    font-size: 1vw;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 1%;
+}
